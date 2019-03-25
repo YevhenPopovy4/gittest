@@ -8,8 +8,9 @@
     <title>practic</title>
 </head>
 <body>
+    hmmm...
     <script>
-    var s=0,k=0, x=prompt('Enter numb','');
+    var s=0,k=0,sd=0, x=prompt('Enter numb','');
         while (x!=null){
             s=s+(+x);
             k++;
@@ -17,11 +18,15 @@
         
         }
         if(k!=0){
-            alert(s/k)
+            alert("Середнє значення = "+s/k)
         }
         else{
             document.write("No enter numb")
         }
+        if(x % 2 == 0){
+            sd=sd++;
+        }
+        alert('Кількість кратних 2 = '+sd);
         
     
     
